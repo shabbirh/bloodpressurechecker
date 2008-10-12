@@ -101,9 +101,7 @@ namespace Hassanally.Net.BPMonitor
                 contextMenuStrip1.Items["editThisEntryToolStripMenuItem"].Enabled = true;
                 contextMenuStrip1.Items["deleteThisEntryToolStripMenuItem"].Enabled = true;
 
-               
-
-
+                addNewEntryToolStripMenuItem_Click(sender, e);
             }
 
         }
@@ -296,6 +294,11 @@ namespace Hassanally.Net.BPMonitor
             this.Dispose();
         }
 
+        /// <summary>
+        /// export to pdf menu item clicked
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void toolStripMenuItem2_Click(object sender, EventArgs e)
         {
             if (this.dataLayer.m_strDBPath == null)
@@ -311,6 +314,7 @@ namespace Hassanally.Net.BPMonitor
             saveFileDialog1.CheckPathExists = true;
             saveFileDialog1.OverwritePrompt = true;
             saveFileDialog1.InitialDirectory = Environment.GetFolderPath(Environment.SpecialFolder.Personal);
+            saveFileDialog1.FileName = "";
             saveFileDialog1.Filter = "Adobe Acrobat PDF Files (*.pdf)|*.pdf";
 
             string filenameForPDF = "";
