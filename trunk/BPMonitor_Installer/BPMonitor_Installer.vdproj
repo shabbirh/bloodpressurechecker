@@ -15,31 +15,13 @@
     {
         "Entry"
         {
-        "MsmKey" = "8:_30C9AF756666F8FCB727F84EAF71EDD6"
-        "OwnerKey" = "8:_6A977DD9A9BF54A2F4EDBAED4C2557BA"
+        "MsmKey" = "8:_41605C06DBDA8080013DC4EAE7B577C8"
+        "OwnerKey" = "8:_AA6F57CBE87307D5B33D9992DDABAE6A"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_30C9AF756666F8FCB727F84EAF71EDD6"
-        "OwnerKey" = "8:_72BBA77CB6F34DD3BF4C8E206F6218B7"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_3E5D7579E454844E06393D9D0A0BF316"
-        "OwnerKey" = "8:_72BBA77CB6F34DD3BF4C8E206F6218B7"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_4723EEC94CEB181351FA36D70A22E016"
-        "OwnerKey" = "8:_72BBA77CB6F34DD3BF4C8E206F6218B7"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_6A977DD9A9BF54A2F4EDBAED4C2557BA"
+        "MsmKey" = "8:_41605C06DBDA8080013DC4EAE7B577C8"
         "OwnerKey" = "8:_72BBA77CB6F34DD3BF4C8E206F6218B7"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -51,6 +33,30 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_73615A8762D856FA586FF71310601233"
+        "OwnerKey" = "8:_72BBA77CB6F34DD3BF4C8E206F6218B7"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_7908F9E9A3D544E69960071D611F9354"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_AA6F57CBE87307D5B33D9992DDABAE6A"
+        "OwnerKey" = "8:_72BBA77CB6F34DD3BF4C8E206F6218B7"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_EB7E0F8D32BB764C166D952AE7E60DC6"
+        "OwnerKey" = "8:_72BBA77CB6F34DD3BF4C8E206F6218B7"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_UNDEFINED"
         "OwnerKey" = "8:_72BBA77CB6F34DD3BF4C8E206F6218B7"
         "MsmSig" = "8:_UNDEFINED"
@@ -58,25 +64,25 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_3E5D7579E454844E06393D9D0A0BF316"
+        "OwnerKey" = "8:_EB7E0F8D32BB764C166D952AE7E60DC6"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_6A977DD9A9BF54A2F4EDBAED4C2557BA"
+        "OwnerKey" = "8:_AA6F57CBE87307D5B33D9992DDABAE6A"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_30C9AF756666F8FCB727F84EAF71EDD6"
+        "OwnerKey" = "8:_41605C06DBDA8080013DC4EAE7B577C8"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_4723EEC94CEB181351FA36D70A22E016"
+        "OwnerKey" = "8:_73615A8762D856FA586FF71310601233"
         "MsmSig" = "8:_UNDEFINED"
         }
     }
@@ -97,6 +103,14 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+            }
         }
         "Release"
         {
@@ -113,6 +127,14 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+            }
         }
     }
     "Deployable"
@@ -142,14 +164,14 @@
         }
         "File"
         {
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_30C9AF756666F8FCB727F84EAF71EDD6"
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_41605C06DBDA8080013DC4EAE7B577C8"
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
             "AssemblyAsmDisplayName" = "8:itextsharp, Version=4.1.2.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
-                    "_30C9AF756666F8FCB727F84EAF71EDD6"
+                    "_41605C06DBDA8080013DC4EAE7B577C8"
                     {
                     "Name" = "8:itextsharp.dll"
                     "Attributes" = "3:512"
@@ -173,45 +195,14 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_3E5D7579E454844E06393D9D0A0BF316"
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_73615A8762D856FA586FF71310601233"
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:Splash, Version=1.0.3207.35350, Culture=neutral, processorArchitecture=MSIL"
+            "AssemblyAsmDisplayName" = "8:AboutBox, Version=1.0.3207.35792, Culture=neutral, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
-                    "_3E5D7579E454844E06393D9D0A0BF316"
-                    {
-                    "Name" = "8:Splash.exe"
-                    "Attributes" = "3:512"
-                    }
-                }
-            "SourcePath" = "8:Splash.exe"
-            "TargetName" = "8:"
-            "Tag" = "8:"
-            "Folder" = "8:_BF1433C9FB1F4A5890CC0D499D3BB993"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:TRUE"
-            "IsolateTo" = "8:"
-            }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_4723EEC94CEB181351FA36D70A22E016"
-            {
-            "AssemblyRegister" = "3:1"
-            "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:AboutBox, Version=1.0.3207.35350, Culture=neutral, processorArchitecture=MSIL"
-                "ScatterAssemblies"
-                {
-                    "_4723EEC94CEB181351FA36D70A22E016"
+                    "_73615A8762D856FA586FF71310601233"
                     {
                     "Name" = "8:AboutBox.exe"
                     "Attributes" = "3:512"
@@ -235,20 +226,71 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_6A977DD9A9BF54A2F4EDBAED4C2557BA"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_7908F9E9A3D544E69960071D611F9354"
+            {
+            "SourcePath" = "8:..\\BPMonitor\\Resources\\hassanally-bpm.ico"
+            "TargetName" = "8:hassanally-bpm.ico"
+            "Tag" = "8:"
+            "Folder" = "8:_BF1433C9FB1F4A5890CC0D499D3BB993"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_AA6F57CBE87307D5B33D9992DDABAE6A"
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:BPMDBLayer, Version=1.0.3207.35350, Culture=neutral, processorArchitecture=MSIL"
+            "AssemblyAsmDisplayName" = "8:BPMDBLayer, Version=1.0.3207.35792, Culture=neutral, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
-                    "_6A977DD9A9BF54A2F4EDBAED4C2557BA"
+                    "_AA6F57CBE87307D5B33D9992DDABAE6A"
                     {
                     "Name" = "8:BPMDBLayer.dll"
                     "Attributes" = "3:512"
                     }
                 }
             "SourcePath" = "8:BPMDBLayer.dll"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_BF1433C9FB1F4A5890CC0D499D3BB993"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_EB7E0F8D32BB764C166D952AE7E60DC6"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:Splash, Version=1.0.3207.35792, Culture=neutral, processorArchitecture=MSIL"
+                "ScatterAssemblies"
+                {
+                    "_EB7E0F8D32BB764C166D952AE7E60DC6"
+                    {
+                    "Name" = "8:Splash.exe"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:Splash.exe"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_BF1433C9FB1F4A5890CC0D499D3BB993"
@@ -442,6 +484,34 @@
         }
         "Shortcut"
         {
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_5009A3D79BD046D585664DEA9CEF7CA5"
+            {
+            "Name" = "8:Blood Pressure Monitor"
+            "Arguments" = "8:"
+            "Description" = "8:"
+            "ShowCmd" = "3:1"
+            "IconIndex" = "3:0"
+            "Transitive" = "11:FALSE"
+            "Target" = "8:_72BBA77CB6F34DD3BF4C8E206F6218B7"
+            "Folder" = "8:_DC9A0BAD33214902BA572AD71F378D18"
+            "WorkingFolder" = "8:_BF1433C9FB1F4A5890CC0D499D3BB993"
+            "Icon" = "8:_7908F9E9A3D544E69960071D611F9354"
+            "Feature" = "8:"
+            }
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_54D2DB9DA64248A59FF866572FCF9403"
+            {
+            "Name" = "8:Blood Pressure Monitor"
+            "Arguments" = "8:"
+            "Description" = "8:"
+            "ShowCmd" = "3:1"
+            "IconIndex" = "3:0"
+            "Transitive" = "11:FALSE"
+            "Target" = "8:_72BBA77CB6F34DD3BF4C8E206F6218B7"
+            "Folder" = "8:_118ADBA3CDFF4885A3A0742EC6B7F807"
+            "WorkingFolder" = "8:_BF1433C9FB1F4A5890CC0D499D3BB993"
+            "Icon" = "8:_7908F9E9A3D544E69960071D611F9354"
+            "Feature" = "8:"
+            }
         }
         "UserInterface"
         {
