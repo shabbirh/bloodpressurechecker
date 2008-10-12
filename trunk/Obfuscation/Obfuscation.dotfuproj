@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Dotfuscate">
+  <PropertyGroup>
+    <DotfuscatorBinPath>$(MSBuildExtensionsPath)\PreEmptive\Dotfuscator\4.0</DotfuscatorBinPath>
+    <DotfuscatorDataPath>$(MSBuildExtensionsPath)\PreEmptive\Dotfuscator\4.0</DotfuscatorDataPath>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Configuration Condition="'$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition="'$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>4.0</ProductVersion>
+    <SchemaVersion>2.1</SchemaVersion>
+    <ProjectGuid>{0f3baad2-6f3d-4f6c-b934-c64aedb68579}</ProjectGuid>
+    <ConfigPath>$(Configuration)\Dotfuscator.xml</ConfigPath>
+    <OutputPath>$(Configuration)</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup>
+    <VSConfigurationCount>2</VSConfigurationCount>
+    <VSConfiguration0>Debug</VSConfiguration0>
+    <VSConfiguration1>Release</VSConfiguration1>
+  </PropertyGroup>
+  <ItemGroup>
+    <InputAssembly Include="..\BPMonitor\obj\$(Configuration)\BPMonitor.exe">
+      <InputAssemblyType>DynamicProjectOutput</InputAssemblyType>
+      <ProjectGuid>{5b03632a-52a6-4d51-9a2e-43bd38987696}</ProjectGuid>
+      <ProjectUniqueName>BPMonitor\BPMonitor.csproj</ProjectUniqueName>
+      <ProjectDisplayName>BPMonitor</ProjectDisplayName>
+      <InputAssemblyFileName>BPMonitor.exe</InputAssemblyFileName>
+      <OutputGroupCanonicalName>Built</OutputGroupCanonicalName>
+      <OutputGroupDisplayName>Primary output</OutputGroupDisplayName>
+      <OutputConfiguration>$(Configuration)</OutputConfiguration>
+    </InputAssembly>
+    <InputAssembly Include="..\AboutBox\obj\$(Configuration)\AboutBox.exe">
+      <InputAssemblyType>DynamicProjectOutput</InputAssemblyType>
+      <ProjectGuid>{8820acfb-971d-48cc-8f3f-ba07e2fa2e8f}</ProjectGuid>
+      <ProjectUniqueName>AboutBox\AboutBox.csproj</ProjectUniqueName>
+      <ProjectDisplayName>AboutBox</ProjectDisplayName>
+      <InputAssemblyFileName>AboutBox.exe</InputAssemblyFileName>
+      <OutputGroupCanonicalName>Built</OutputGroupCanonicalName>
+      <OutputGroupDisplayName>Primary output</OutputGroupDisplayName>
+      <OutputConfiguration>$(Configuration)</OutputConfiguration>
+    </InputAssembly>
+    <InputAssembly Include="..\BPMDBLayer\obj\$(Configuration)\BPMDBLayer.dll">
+      <InputAssemblyType>DynamicProjectOutput</InputAssemblyType>
+      <ProjectGuid>{05ca216c-4cce-43d0-8695-499d3da4498d}</ProjectGuid>
+      <ProjectUniqueName>BPMDBLayer\BPMDBLayer.csproj</ProjectUniqueName>
+      <ProjectDisplayName>BPMDBLayer</ProjectDisplayName>
+      <InputAssemblyFileName>BPMDBLayer.dll</InputAssemblyFileName>
+      <OutputGroupCanonicalName>Built</OutputGroupCanonicalName>
+      <OutputGroupDisplayName>Primary output</OutputGroupDisplayName>
+      <OutputConfiguration>$(Configuration)</OutputConfiguration>
+    </InputAssembly>
+    <InputAssembly Include="..\iTextSharp\obj\$(Configuration)\itextsharp.dll">
+      <InputAssemblyType>DynamicProjectOutput</InputAssemblyType>
+      <ProjectGuid>{84c4fdd9-3ed7-453b-b9da-b3ed52cb071c}</ProjectGuid>
+      <ProjectUniqueName>iTextSharp\itextsharp.csproj</ProjectUniqueName>
+      <ProjectDisplayName>itextsharp</ProjectDisplayName>
+      <InputAssemblyFileName>itextsharp.dll</InputAssemblyFileName>
+      <OutputGroupCanonicalName>Built</OutputGroupCanonicalName>
+      <OutputGroupDisplayName>Primary output</OutputGroupDisplayName>
+      <OutputConfiguration>$(Configuration)</OutputConfiguration>
+    </InputAssembly>
+    <InputAssembly Include="..\Splash\obj\$(Configuration)\Splash.exe">
+      <InputAssemblyType>DynamicProjectOutput</InputAssemblyType>
+      <ProjectGuid>{cfdeffa0-27a1-4db9-a11e-3418ecb4db34}</ProjectGuid>
+      <ProjectUniqueName>Splash\Splash.csproj</ProjectUniqueName>
+      <ProjectDisplayName>Splash</ProjectDisplayName>
+      <InputAssemblyFileName>Splash.exe</InputAssemblyFileName>
+      <OutputGroupCanonicalName>Built</OutputGroupCanonicalName>
+      <OutputGroupDisplayName>Primary output</OutputGroupDisplayName>
+      <OutputConfiguration>$(Configuration)</OutputConfiguration>
+    </InputAssembly>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BPMonitor\BPMonitor.csproj">
+      <Project>{5b03632a-52a6-4d51-9a2e-43bd38987696}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\AboutBox\AboutBox.csproj">
+      <Project>{8820acfb-971d-48cc-8f3f-ba07e2fa2e8f}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\BPMDBLayer\BPMDBLayer.csproj">
+      <Project>{05ca216c-4cce-43d0-8695-499d3da4498d}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\iTextSharp\itextsharp.csproj">
+      <Project>{84c4fdd9-3ed7-453b-b9da-b3ed52cb071c}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\Splash\Splash.csproj">
+      <Project>{cfdeffa0-27a1-4db9-a11e-3418ecb4db34}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(DotfuscatorDataPath)\PreEmptive.Dotfuscator.Targets" />
+</Project>
