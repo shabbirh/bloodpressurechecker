@@ -308,8 +308,8 @@ namespace Hassanally.Net.BPMonitor
                     openExistingBloodPressureMonitorDatabaseToolStripMenuItem_Click(sender, e);
                 }
             }
-           
-            saveFileDialog1.Title = "Save Data as a PDF Report"
+
+            saveFileDialog1.Title = "Save Data as a PDF Report";
             saveFileDialog1.AddExtension = true;
             saveFileDialog1.CheckFileExists = false;
             saveFileDialog1.CheckPathExists = true;
